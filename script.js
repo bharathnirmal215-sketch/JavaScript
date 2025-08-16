@@ -13,7 +13,7 @@ let item={
 // console.log(item)
 // console.log(item.categories[0])
 // console.log(item.dimensions.length)
-console.log(item.quantity.slice(1,-2))
+console.log(item.quantity.slice(1,2))
 
 
 

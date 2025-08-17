@@ -1,19 +1,19 @@
-let item={
-        name:"phone",
-        price:25000,
-        quantity:[1,2,9,8,5],
-        categories:['electronics','phones'],
-            dimensions:{
-            length:7,
-            breadth:3.5,
-            height:.5
-        }
+// let item={
+//         name:"phone",
+//         price:25000,
+//         quantity:[1,2,9,8,5],
+//         categories:['electronics','phones'],
+//             dimensions:{
+//             length:7,
+//             breadth:3.5,
+//             height:.5
+//         }
 
-}
-console.log(item)
-// console.log(item.categories[0])
-// console.log(item.dimensions.length)
-console.log(item.quantity.slice(1,2))
+// }
+// console.log(item)
+// // console.log(item.categories[0])
+// // console.log(item.dimensions.length)
+// console.log(item.quantity.slice(1,2))
 
 
 
@@ -60,3 +60,47 @@ console.log(item.quantity.slice(1,2))
 // }
 // item.buy()
 // item.addtolist()
+
+
+// arrays
+//
+ let cities=["chennai","banglore","mumbai"];
+ console.log(cities)
+
+
+ let marks=[73,56,65,76];
+ console.log(marks)
+
+// total elements in the array
+ console.log(marks.length)
+
+ //only get the first value
+ console.log(cities[0])
+ console.log(cities[3]) 
+
+ // finding last value of an array
+ console.log(marks[marks.length-1])
+
+ //mix of an int and string
+ let arr=[5,6,7,'a',"abc",[3,4]]
+ console.log(arr)
+ console.log(arr[5][0])
+
+ //2nd array two dimensional array
+ let matrix=[[2,3,4],[4,6,7],[6,7,8]]
+ console.log(matrix[0][2])
+ console.log(matrix[2][1])
+
+ //array methods
+ let array=['a','b','c','d','e']
+
+ //push - add an element of an end 
+ array.push('f')
+ console.log(array)
+
+ //pop - removes element from the end and return removed values
+ console.log(array.pop())
+
+ //shift - removes element from starting and returns values
+ console.log(array.shift())
+ console.log(array)

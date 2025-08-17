@@ -103,4 +103,6 @@
 
  //shift - removes element from starting and returns values
  console.log(array.shift())
+
  console.log(array)
+ console.log(array.pop())
